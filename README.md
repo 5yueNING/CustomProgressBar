@@ -4,7 +4,7 @@
 
 
 
-
+https://raw.githubusercontent.com/laoshuzaiwojia/CustomProgressBar/master/img/1536235248192.gif
 
 
 
