@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.view.custom.progressbar.ProgressBarActivity">
+
+    <com.custom.view.progressbarlib.CircleProgressBarView
+        android:id="@+id/circle_progress_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        app:cpbv_centerProgressTextColor="@color/colorAccent"
+        app:cpbv_centerProgressTextSize="20sp"
+        app:cpbv_circleBgStrokeWidth="10dp"
+        app:cpbv_isDrawCenterProgressText="true"
+        app:cpbv_progressStrokeWidth="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.custom.view.progressbarlib.HorizontalCursorProgressBar
+        android:id="@+id/horizontal_progress_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:hcpb_bgColor="@color/colorAccent"
+        app:hcpb_progressColor="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/circle_progress_view" />
+
+    <com.custom.view.progressbarlib.HorizontalTextProgressBar
+        android:id="@+id/product_progress_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horizontal_progress_view"
+        android:layout_margin="50dp" />
+
+    <com.custom.view.progressbarlib.LoadingLineView
+        android:id="@+id/loading_line_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/product_progress_view"
+        android:layout_margin="50dp" />
+
+    <Button
+        android:id="@+id/startAnimationBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="启动动画"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

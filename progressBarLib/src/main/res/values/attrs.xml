@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBarView">
+        <attr name="cpbv_circleBgStrokeWidth" format="dimension" />
+        <attr name="cpbv_progressStrokeWidth" format="dimension" />
+        <attr name="cpbv_circleBgColor" format="color" />
+        <attr name="cpbv_progressColor" format="color" />
+        <attr name="cpbv_circleAnimationDuration" format="integer" />
+        <attr name="cpbv_isDrawCenterProgressText" format="boolean" />
+        <attr name="cpbv_centerProgressTextColor" format="color"/>
+        <attr name="cpbv_centerProgressTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizontalCursorProgressBar">
+        <attr name="hcpb_progressPaintWidth" format="dimension" />
+        <attr name="hcpb_tipHeight" format="dimension" />
+        <attr name="hcpb_tipPaintWidth" format="dimension" />
+        <attr name="hcpb_triangleHeight" format="dimension" />
+        <attr name="hcpb_roundRectRadius" format="dimension" />
+        <attr name="hcpb_progressMarginTop" format="dimension" />
+        <attr name="hcpb_textPaintSize" format="dimension" />
+        <attr name="hcpb_bgColor" format="color" />
+        <attr name="hcpb_progressColor" format="color" />
+    </declare-styleable>
+
+
+</resources>
