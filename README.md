@@ -10,3 +10,16 @@
 
 ![](https://raw.githubusercontent.com/laoshuzaiwojia/CustomProgressBar/master/img/1536234112490.gif)
 
+
+2.依赖方式
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+dependencies {
+	    implementation 'com.github.laoshuzaiwojia:CustomProgressBar:1.0.0'
+	}
